@@ -45,7 +45,7 @@
       </dependency>
       <dependency>
         <groupId>org.nuxeo.marketplace.csv</groupId>
-        <artifactId>marketplace</artifactId>
+        <artifactId>marketplace-csv</artifactId>
         <version>${marketplace.csv.version}</version>
         <type>zip</type>
       </dependency>
