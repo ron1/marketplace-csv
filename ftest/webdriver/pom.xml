@@ -12,7 +12,6 @@
   <artifactId>webdriver</artifactId>
   <name>Nuxeo CSV functional tests with WebDriver</name>
   <description>Nuxeo CSV functional tests with WebDriver</description>
-  <packaging>pom</packaging>
 
   <properties>
     <some.password>setTheValueInYourSettings</some.password>
@@ -58,7 +57,7 @@
               <goal>verify</goal>
             </goals>
             <configuration>
-              <argLine>-Dlog4j.configuration=${file.uri.prefix}${basedir}/src/main/resources/log4j.xml
+              <argLine>-Dlog4j.configuration=${file.uri.prefix}${basedir}/src/test/resources/log4j.xml
                 -Dnuxeo.log.dir=${build.directory}
                 -DsomePassword=${some.password}
               </argLine>
