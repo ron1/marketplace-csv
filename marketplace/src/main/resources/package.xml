@@ -4,7 +4,7 @@
   <description>
     <p>This addon adds the ability to import documents through CSV files to Nuxeo.</p>
   </description>
-  <home-page>http://doc.nuxeo.com/</home-page>
+  <home-page>http://doc.nuxeo.com/x/O4TZ</home-page>
   <vendor>Nuxeo</vendor>
   <installer restart="true" />
   <uninstaller restart="true" />
