@@ -15,8 +15,7 @@
 
   <target name="expand">
     <!-- Include your artifacts in the graph adding your groupId to groupPrefixes -->
-    <artifact:nuxeo-expand includeTestScope="true"
-                           groupPrefixes="org.nuxeo,com.nuxeo" />
+    <artifact:nuxeo-expand includeTestScope="true" groupPrefixes="org.nuxeo" />
     <!-- For Nuxeo IDE being able to use that distribution as a SDK -->
     <artifact:print output="${outdir}/artifacts-csv.properties" mode="sdk" />
     <artifact:print output="${outdir}/test-artifacts-csv.properties"
@@ -56,8 +55,6 @@
       <artifact:set>
         <includes>
           <artifact groupId="org.nuxeo*" scope="!test" type="!pom" />
-          <!-- Include your artifacts using their groupId for instance -->
-          <artifact groupId="com.nuxeo*" scope="!test" type="!pom" />
         </includes>
       </artifact:set>
     </copy>
@@ -67,10 +64,6 @@
         <includes>
           <artifact groupId="!org.nuxeo*" scope="!test" />
         </includes>
-        <excludes>
-          <!-- Filter out your artifacts using their groupId for instance -->
-          <artifact groupId="com.nuxeo*" />
-        </excludes>
       </artifact:set>
     </copy>
     <move todir="${outdir}/nxr/lib">
