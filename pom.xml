@@ -3,17 +3,17 @@
   <parent>
     <groupId>org.nuxeo.ecm.distribution</groupId>
     <artifactId>nuxeo-distribution</artifactId>
-    <version>5.9.4-SNAPSHOT</version>
+    <version>5.9.5-SNAPSHOT</version>
   </parent>
 
   <groupId>org.nuxeo.marketplace.csv</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
   <name>Nuxeo CSV Marketplace package</name>
-  <version>1.2.3-SNAPSHOT</version>
+  <version>1.2.4-SNAPSHOT</version>
 
   <properties>
-    <marketplace.csv.version>1.2.3-SNAPSHOT</marketplace.csv.version>
+    <marketplace.csv.version>1.2.4-SNAPSHOT</marketplace.csv.version>
   </properties>
 
   <modules>
