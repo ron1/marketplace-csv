@@ -16,6 +16,7 @@
   <platforms>
     <platform>cap-@DISTRIB_VERSION@</platform>
     <platform>cap-5.8</platform>
+    <platform>cap-5.8.0-HF*</platform>
   </platforms>
   <license>LGPL</license>
   <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
